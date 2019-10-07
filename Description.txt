@@ -1,0 +1,18 @@
+Name divider service application
+This application is used to divide a given full name into first name, middle name and the surname.
+
+Examples
+localhost:3000/derrick/odago/kauma --> should return an xml file containing:
+   <xml>
+       <firstNumber>derrick</firstNumber>
+       <secondNumber>odago</secondNumber>
+       <thirdNumber>kauma</thirdNumber>
+       <sum>9</sum>
+   </xml>
+The code for the application is contained in the 'index.js' file. To run the application:
+
+- Install nodejs on your computer
+- Open a terminal
+- Change the current directory to the working project directory
+- enter the command `node index` on your terminal and open the url:
+    - `localhost:3000/derrick/odago/kauma`
